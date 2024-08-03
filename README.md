@@ -29,6 +29,38 @@ Google Geolocation API Automation using BDD in Cucumber and Rest Assured for API
     mvn clean install
     ```
 
+### Project Structure
+
+```
+GeolocationAPITests_BDD_RestAssured
+
+|-- src
+    |
+    |-- test
+        |
+        |-- java
+        |   |-- runners
+        |   |   |-- TestRunner
+        |   |
+        |   |-- stepDefinitions
+        |   |
+        |   |-- utils
+        |
+        |-- resources
+            |-- features
+            |   |-- ValidateEdgeCases.feature
+            |   |-- ValidateNegativeCases.feature
+            |   |-- ValidatePositiveCases.feature
+            |
+            |-- responseData
+            |
+            |-- testData
+            |
+            |-- config.properties
+            |
+            |-- extent.properties
+```
+
 ### Configuration
 
 - `/src/test/resources/config.properties`: Contains the configuration settings such as the API endpoint, API key, and other necessary parameters.

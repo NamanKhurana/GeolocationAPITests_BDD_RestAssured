@@ -11,6 +11,6 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty", "html:target/cucumber-reports/cucumber-pretty.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true
 )
-public class CucumberRunnerTest {
+public class TestRunner {
 }
 
