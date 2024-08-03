@@ -1,0 +1,14 @@
+{
+  "homeMobileCountryCode": 10000,
+  "homeMobileNetworkCode": 10000,
+  "radioType": "gsm",
+  "carrier": "Vodafone",
+  "considerIp": false,
+  "cellTowers": [
+    {
+      "age": 0,
+      "signalStrength": 10,
+      "timingAdvance": 45
+    }
+  ]
+}

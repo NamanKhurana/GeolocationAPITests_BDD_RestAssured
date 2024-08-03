@@ -1,0 +1,7 @@
+{
+  "homeMobileCountryCode": "InvalidDataType",
+  "homeMobileNetworkCode": "10000",
+  "radioType": "invalidRadioType",
+  "carrier": "Vodafone",
+  "considerIp": false
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        }
+      },
+      "required": ["lat", "lng"]
+    },
+    "accuracy": {
+      "type": "number"
+    }
+  },
+  "required": ["location", "accuracy"]
+}

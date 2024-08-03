@@ -1,0 +1,16 @@
+{
+  "homeMobileCountryCode": 10000,
+  "homeMobileNetworkCode": 10000,
+  "radioType": "gsm",
+  "carrier": "Vodafone",
+  "considerIp": false,
+  "wifiAccessPoints": [
+    {
+      "macAddress": "f0:d5:bf:fd:12:ae",
+      "signalStrength": -43,
+      "signalToNoiseRatio": 0,
+      "channel": 11,
+      "age": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "homeMobileCountryCode": 10000,
+  "homeMobileNetworkCode": 10000,
+  "radioType": "gsm",
+  "carrier": "aSasaS",
+  "considerIp": false,
+  "wifiAccessPoints": [
+    {
+      "signalStrength": -43,
+      "signalToNoiseRatio": 0,
+      "channel": 11,
+      "age": 0
+    },
+    {
+      "signalStrength": -35,
+      "signalToNoiseRatio": 0
+    }
+  ]
+}
