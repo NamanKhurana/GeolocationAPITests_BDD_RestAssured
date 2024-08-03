@@ -14,11 +14,20 @@ public class DataFilePaths {
     public static final String GET_LOCATION_USING_WIFI_ACCESS_POINTS_INVALID_REQ = "/src/test/resources/testData/negativeCases/getLocationUsingWifiAccessPoint_INVALID.json";
     public static final String GET_LOCATION_WITHOUT_MAC_ADDRESS_INVALID_REQ = "/src/test/resources/testData/negativeCases/getLocationWithoutMacAddress_INVALID.json";
 
+    // Edgecase TestData
+    public static final String GET_LOCATION_WITH_CDMA_RADIO_TYPE_REQ = "/src/test/resources/testData/edgeCases/getLocationWithCDMARadioType.json";
+    public static final String GET_LOCATION_WITH_NR_RADIO_TYPE_REQ = "/src/test/resources/testData/edgeCases/getLocationWithNRRadioType.json";
+    public static final String GET_LOCATION_WITH_MULTIPLE_RADIO_TYPES_REQ = "/src/test/resources/testData/edgeCases/getLocationWithMultipleRadioTypes.json";
+    public static final String GET_LOCATION_WITHOUT_RADIO_TYPE_REQ = "/src/test/resources/testData/edgeCases/getLocationWithoutRadioType.json";
+
     // ResponseData
     public static final String GET_LOCATION_USING_IP_RES = "/src/test/resources/responseData/positiveCases/getLocationUsingIP.json";
     public static final String GET_LOCATION_USING_CELL_TOWERS_AND_WIFI_RES = "/src/test/resources/responseData/positiveCases/getLocationUsingCellTowersAndWifi.json";
     public static final String GET_LOCATION_USING_WIFI_ACCESS_POINTS_RES = "/src/test/resources/responseData/positiveCases/getLocationUsingWifiAccessPoints.json";
     public static final String GET_LOCATION_USING_CELL_TOWERS_RES = "/src/test/resources/responseData/positiveCases/getLocationUsingCellTowers.json";
+
+    // Edgecase ResponseData
+    public static final String GET_LOCATION_WITHOUT_RADIO_TYPE_RES = "/src/test/resources/responseData/edgeCases/getLocationWithoutRadioType.json";
 
     // Valid Response Schema
     public static final String GET_SCHEMA_200 = "/src/test/resources/responseData/schemas/responseSchema_200.json";

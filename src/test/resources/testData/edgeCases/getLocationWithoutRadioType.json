@@ -1,0 +1,26 @@
+{
+  "homeMobileCountryCode": 310,
+  "homeMobileNetworkCode": 410,
+  "carrier": "Vodafone",
+  "considerIp": false,
+  "cellTowers": [
+    {
+      "cellId": 170402199,
+      "locationAreaCode": 35632,
+      "mobileCountryCode": 310,
+      "mobileNetworkCode": 410,
+      "age": 0,
+      "signalStrength": -60,
+      "timingAdvance": 15
+    }
+  ],
+  "wifiAccessPoints": [
+    {
+      "macAddress": "f0:d5:bf:fd:12:ae",
+      "signalStrength": -43,
+      "signalToNoiseRatio": 0,
+      "channel": 11,
+      "age": 0
+    }
+  ]
+}
