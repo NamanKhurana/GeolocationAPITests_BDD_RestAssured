@@ -82,8 +82,8 @@ mvn test
 ---
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/assets/geolocation_api_features.png" style="width: 49%" />
-  <img src="/assets/geolocation_test_run.png" style="width: 49%;" />
+  <img src="/assets/geolocation_api_features.png" style="width: 49%; height: 200px;" />
+  <img src="/assets/geolocation_test_run.png" style="width: 49%; height: 200px;" />
 </div>
 
 ---
