@@ -25,8 +25,10 @@ public class ConfigLoader {
         try {
             properties = new Properties();
             properties.load(new FileReader(System.getProperty("user.dir") + filePath));
+            System.out.println(filePath + " found");
         } catch (Exception e) {
             properties.clear();
+            System.out.println(filePath + " not found");
         }
         return properties;
     }
