@@ -12,7 +12,7 @@ public class ConfigLoader {
     private static Properties properties;
 
     static {
-            String filePath = "/Users/namankhurana/GeolocationAPITests_BDD_RestAssured/src/test/resources/config.properties";
+            String filePath = "/src/test/resources/config.properties";
             properties = loadProperty(filePath);
     }
 
@@ -24,7 +24,7 @@ public class ConfigLoader {
         Properties properties = null;
         try {
             properties = new Properties();
-            properties.load(new FileReader(filePath));
+            properties.load(new FileReader(System.getProperty("user.dir") + filePath));
         } catch (Exception e) {
             properties.clear();
         }
